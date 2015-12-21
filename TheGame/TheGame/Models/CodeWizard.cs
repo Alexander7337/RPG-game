@@ -14,24 +14,44 @@ namespace TheGame
 
     class CodeWizard : Hero
     {
+        //private static Texture2D codeWizardTexture;
+
         
+        //private static Rectangle codeWizardRectangle;
+        //private Vector2 codeWizardPosition;
+        //private static int damage = 10;
+        //private static int moveSpeed = 10;
+
+
+
+        //public CodeWizard(string name)
+        //    : base(codeWizardTexture, CodeWizardRectangle, name, damage, moveSpeed, Heroclass.CodeWizard)
+        //{
+        //    this.Health = 100;
+        //    this.Lives = 10;
+        //}
+
         private const int WIZARDSPEED = 4;
         private const int JUMPHEIGHT = -3;
+
+        private Vector2 velocity;   // not needed ???
+
         private int jumpCounter;
-        Texture2D rightWalk, leftWalk, upWalk, currentAnim;
-        Rectangle sourceRectangle;
-        Rectangle destRecangle = new Rectangle(100, 100, 32, 47);
-        float elapsed;
-        float delay = 200f;
-        int frames = 0;
-        private KeyboardState ks;
+
+
+
+
+
+
+
         public CodeWizard(string name, Vector2 position, ContentManager Content, CollisionHandler collisionHandler)
             : base(
-                Content.Load<Texture2D>("wizard1"), position, name,
+                Content.Load<Texture2D>("CodeWizard"), position, name,
                 10, WIZARDSPEED, Heroclass.CodeWizard,collisionHandler)
         {
             this.Health = 100;
             this.Lives = 10;
+            //this.Position = position;
             this.JumpCounter = 0;
             this.CollisionGroup = CollisionGroup.CodeWizard;
             this.Rectangle = new Rectangle((int)Position.X, (int)Position.Y, 50, 100);
@@ -40,29 +60,31 @@ namespace TheGame
 
         }
 
+        public Vector2 Velocity { get; set; }
         public int JumpCounter { get; set; }
 
         
-        public override void Move(KeyboardState presentKey, KeyboardState pastKey,GameTime gameTime)
+
+
+
+
+
+
+        public override void Move(KeyboardState presentKey, KeyboardState pastKey)
         {
-            ks = Keyboard.GetState();
+           // this.Velocity = new Vector2(0,0);
+
             if (Keyboard.GetState().IsKeyDown(Keys.Right))
             {
-                this.Position = Vector2.Add(Position, new Vector2(+2f, 0));
-                currentAnim = rightWalk;
-                Animate(gameTime);
+                this.Position = Vector2.Add(Position, new Vector2(this.MoveSpeed, 0));
                
             }
             if (Keyboard.GetState().IsKeyDown(Keys.Left))
             {
-                this.Position = Vector2.Add(Position, new Vector2(-2f, 0));
-                currentAnim = leftWalk;
-                Animate(gameTime);
+                this.Position = Vector2.Add(Position, new Vector2(-this.MoveSpeed, 0));
             }
             if (presentKey.IsKeyDown(Keys.Up) && pastKey.IsKeyUp(Keys.Up))
-            {
-                currentAnim = upWalk;
-                Animate(gameTime);
+            {               
                 this.JumpCounter = 10;
                
             }
@@ -72,16 +94,13 @@ namespace TheGame
                 Attack(CollisionHandler);
 
             }
-            else
-            {
-                sourceRectangle = new Rectangle(0, 0, 32, 47);
-            }
             
              
             Jump();
 
             Gravity.ApplyGravity(this);
 
+            this.Rectangle = new Rectangle((int)Position.X, (int)Position.Y, 50, 100);
             
 
 
@@ -105,25 +124,27 @@ namespace TheGame
 
         }
 
-        private void Animate(GameTime gameTime)
+        //private void Accelerate(Vector2 direction, float force)
+        //{
+        //    Velocity += force*Vector2.Normalize(direction);
+        //}
+
+        public override void Update(KeyboardState presentKey, KeyboardState pastKey)
         {
-            elapsed += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+            Move(presentKey, pastKey);
 
-            if (elapsed >= delay)
-            {
-                if (frames > 3)
-                {
-                    frames = 0;
-                }
-                else
-                {
-                    frames++;
-                }
-                elapsed = 0;
-            }
-
-            sourceRectangle = new Rectangle(32 * frames, 0, 32, 47);
         }
+
+        //private void ApplyGravity()
+        //{
+        //    if (this.Position.Y < 400)
+        //    {
+        //        //Accelerate(new Vector2(0,1),30 );
+        //        this.Position = Vector2.Add(Position, new Vector2(0, 100));
+        //    }
+
+        //}
+
         public override void Animate()
         {
             //throw new NotImplementedException();
@@ -135,10 +156,8 @@ namespace TheGame
 
         public override void Load(ContentManager Content)
         {
-            rightWalk = Content.Load<Texture2D>("wizard4");
-            leftWalk = Content.Load<Texture2D>("wizard4");
-            upWalk = Content.Load<Texture2D>("wizard3");
-            currentAnim = Content.Load<Texture2D>("wizard1");
+            
+            this.Texture = Content.Load<Texture2D>("character");
         }
 
 
@@ -151,7 +170,12 @@ namespace TheGame
 
             foreach (Character character in collisionHandler.GameCharacters)
             {
-               
+                //if (this.Rectangle.Intersects(character.Rectangle) && !character.Equals(this))
+                //{
+                //    character.Health -= (int)this.Damage;
+                //    this.IsAttacking = false;
+
+                //}
                 if (this.IsCollided && character.IsCollided)
                 {
                     character.Health -= (int)this.Damage;
@@ -162,11 +186,15 @@ namespace TheGame
 
 
         }
+
+
+
+
+
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Begin();
-            spriteBatch.Draw(currentAnim, destRecangle, sourceRectangle, Color.White);
-            spriteBatch.End();
+            this.Rectangle = new Rectangle((int) Position.X, (int) Position.Y, 50, 100);
+            spriteBatch.Draw(this.Texture, this.Rectangle, Color.White);
         }
     }
 }

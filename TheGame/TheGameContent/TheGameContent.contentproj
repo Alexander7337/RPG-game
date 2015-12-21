@@ -205,23 +205,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="wizard1.png">
-      <Name>wizard1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="wizard2.png">
-      <Name>wizard2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="wizard3.png">
-      <Name>wizard3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="wizard4.png">
-      <Name>wizard4</Name>
+    <Compile Include="wizardSprite.png">
+      <Name>wizardSprite</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

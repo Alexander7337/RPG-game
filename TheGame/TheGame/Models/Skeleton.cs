@@ -49,7 +49,7 @@ namespace TheGame
         }
 
 
-        public override void Move(KeyboardState presentKey, KeyboardState pastkey,GameTime gameTime)
+        public override void Move(KeyboardState presentKey, KeyboardState pastkey)
         {
             Ai();
         }

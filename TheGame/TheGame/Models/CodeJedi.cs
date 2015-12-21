@@ -47,7 +47,7 @@ namespace TheGame
             //throw new NotImplementedException();
         }
 
-        public override void Move(KeyboardState presentKey, KeyboardState pastKey,GameTime gameTime)
+        public override void Move(KeyboardState presentKey, KeyboardState pastKey)
         {
             if (Keyboard.GetState().IsKeyDown(Keys.Right))
             {
@@ -93,7 +93,10 @@ namespace TheGame
         }
 
 
-        
+        public override void Update(KeyboardState presentKey, KeyboardState pastKey)
+        {
+            Move(presentKey, pastKey);
+        }
 
         public override void Load(ContentManager Content)
         {

@@ -42,7 +42,7 @@ namespace TheGame
 
         public abstract void Attack(CollisionHandler collisionHandler);
 
-        public abstract void Move(KeyboardState presentKey, KeyboardState pastKey,GameTime gameTime);
+        public abstract void Move(KeyboardState presentKey, KeyboardState pastKey);
         public abstract void Animate();
         public abstract void Draw(SpriteBatch spriteBatch);
 
