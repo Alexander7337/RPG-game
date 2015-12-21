@@ -1,0 +1,151 @@
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.csprojResolveAssemblyReference.cache
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\Content\MainMenu.xnb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\TheGame.exe
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\TheGame.pdb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.exe
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.pdb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\Content\character.xnb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\Content\second half.xnb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGame\bin\x86\Debug\Content\CodeWizard.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\MainMenu.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\character.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\second half.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\CodeWizard.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\TheGame.exe
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\TheGame.pdb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.csprojResolveAssemblyReference.cache
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.exe
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.pdb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\otherbackground.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\play_button.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\minimal-class.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\FotorCreated.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\codespace.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\codespaceCode.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\login.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.wma
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\REMIX.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\REMIX.wma
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\start.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGame\bin\x86\Debug\Content\Begin.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\character.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\CodeWizard.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\otherbackground.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\play_button.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\minimal-class.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\codespace.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\codespaceCode.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\Begin.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\login.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\REMIX.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.wma
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\REMIX.wma
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\TheGame.exe
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\TheGame.pdb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.csprojResolveAssemblyReference.cache
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.exe
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\obj\x86\Debug\TheGame.pdb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\0.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\1.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\2.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\3.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\4.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\5.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\6.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\CutSceneRoom.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\DialogBox.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\starec.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\font.xnb
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\map.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\character.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\CodeWizard.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\otherbackground.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\play_button.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\minimal-class.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\codespace.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\codespaceCode.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\Begin.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\0.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\1.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\2.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\3.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\4.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\5.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\6.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\CutSceneRoom.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\DialogBox.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\starec.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\map.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\wizardSprite.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\login.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\REMIX.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\font.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.wma
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\REMIX.wma
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\TheGame.exe
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\TheGame.pdb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\obj\x86\Debug\TheGame.csprojResolveAssemblyReference.cache
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\obj\x86\Debug\TheGame.exe
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\obj\x86\Debug\TheGame.pdb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\character.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\CodeWizard.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\otherbackground.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\play_button.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\minimal-class.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\codespace.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\codespaceCode.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\Begin.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\0.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\1.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\2.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\3.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\4.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\5.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\6.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\CutSceneRoom.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\DialogBox.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\starec.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\map.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\login.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\REMIX.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\font.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.wma
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\REMIX.wma
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\TheGame.exe
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\TheGame.pdb
+E:\Latest Version\TheGame\TheGame\obj\x86\Debug\TheGame.csprojResolveAssemblyReference.cache
+E:\Latest Version\TheGame\TheGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Latest Version\TheGame\TheGame\obj\x86\Debug\TheGame.exe
+E:\Latest Version\TheGame\TheGame\obj\x86\Debug\TheGame.pdb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\wizard1.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\wizard2.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\wizard3.xnb
+E:\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\wizard4.xnb

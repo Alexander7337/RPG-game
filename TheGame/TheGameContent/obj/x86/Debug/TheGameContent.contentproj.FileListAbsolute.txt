@@ -1,0 +1,5 @@
+C:\Users\Y50\Desktop\TheGame\TheGame\TheGameContent\obj\x86\Debug\TheGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Y50\Desktop\TheGameFOLDER\TheGame\TheGame\TheGameContent\obj\x86\Debug\TheGameContent.contentprojResolveAssemblyReference.cache
+E:\NaiPoslednaVersiq\TheGame\TheGame\TheGameContent\obj\x86\Debug\TheGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGameContent\obj\x86\Debug\TheGameContent.contentprojResolveAssemblyReference.cache
+E:\Latest Version\TheGame\TheGameContent\obj\x86\Debug\TheGameContent.contentprojResolveAssemblyReference.cache

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TheGame.Character" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAEIAAghAAAAAAAAQAAIIEAAACAAAAAAAAAAg=</HashCode>
+      <FileName>Models\Abstract\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.CodeJedi" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAgAAAAAAAAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CodeJedi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.CodeWizard" Collapsed="true">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgACAEIAAghAAAAAAAgQAAIJAABAAQAAQAAAAAAA=</HashCode>
+      <FileName>Models\CodeWizard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Enemy" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Abstract\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Game1" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQwAEEAAAABAAwAgAAAAAAAEAAAAAAoAAAIAQAAAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.GameObject" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAgAAAAAAACAAAAAgAgAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\Abstract\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Hero" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Abstract\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Program" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>GameEngine\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.Skeleton" Collapsed="true">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAgBAAAABQAQAAYAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Skeleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheGame.CButton" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAACAggAAIAAICACAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TheGame.Heroclass" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Abstract\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TheGame.GameState" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAQAAAAAAABAAAAAABIAEA=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
