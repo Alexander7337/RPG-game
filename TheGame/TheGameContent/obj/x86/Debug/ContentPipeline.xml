@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Button.png</Source>
+      <Name>Button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb</Output>
+      <Time>2015-12-11T20:11:45.5926164+02:00</Time>
+    </Item>
+    <Item>
+      <Source>first half.png</Source>
+      <Name>first half</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb</Output>
+      <Time>2015-12-12T17:19:13.7211675+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Characterselect.png</Source>
+      <Name>Characterselect</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb</Output>
+      <Time>2015-12-13T17:26:15.4574584+02:00</Time>
+    </Item>
+    <Item>
+      <Source>CodeJedi.png</Source>
+      <Name>CodeJedi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb</Output>
+      <Time>2015-12-14T01:33:32.4359185+02:00</Time>
+    </Item>
+    <Item>
+      <Source>CodeWizard.png</Source>
+      <Name>CodeWizard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\CodeWizard.xnb</Output>
+      <Time>2015-12-14T01:33:19.7372444+02:00</Time>
+    </Item>
+    <Item>
+      <Source>otherbackground.png</Source>
+      <Name>otherbackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\otherbackground.xnb</Output>
+      <Time>2015-12-14T00:37:53.238837+02:00</Time>
+    </Item>
+    <Item>
+      <Source>play_button.png</Source>
+      <Name>play_button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\play_button.xnb</Output>
+      <Time>2015-12-14T00:41:19.567765+02:00</Time>
+    </Item>
+    <Item>
+      <Source>minimal-class.jpg</Source>
+      <Name>minimal-class</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\minimal-class.xnb</Output>
+      <Time>2015-12-14T01:00:58.7286611+02:00</Time>
+    </Item>
+    <Item>
+      <Source>codespace.png</Source>
+      <Name>codespace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\codespace.xnb</Output>
+      <Time>2015-12-14T01:36:52.4345896+02:00</Time>
+    </Item>
+    <Item>
+      <Source>codespaceCode.png</Source>
+      <Name>codespaceCode</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\codespaceCode.xnb</Output>
+      <Time>2015-12-14T02:01:39.6350451+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Begin.png</Source>
+      <Name>Begin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\Begin.xnb</Output>
+      <Time>2015-12-18T01:55:42.7118842+02:00</Time>
+    </Item>
+    <Item>
+      <Source>0.png</Source>
+      <Name>0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\0.xnb</Output>
+      <Time>2015-12-19T00:28:26.4991035+02:00</Time>
+    </Item>
+    <Item>
+      <Source>1.png</Source>
+      <Name>1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\1.xnb</Output>
+      <Time>2015-12-19T00:28:26.5031066+02:00</Time>
+    </Item>
+    <Item>
+      <Source>2.png</Source>
+      <Name>2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\2.xnb</Output>
+      <Time>2015-12-19T00:28:26.5071307+02:00</Time>
+    </Item>
+    <Item>
+      <Source>3.png</Source>
+      <Name>3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\3.xnb</Output>
+      <Time>2015-12-19T00:28:26.5131176+02:00</Time>
+    </Item>
+    <Item>
+      <Source>4.png</Source>
+      <Name>4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\4.xnb</Output>
+      <Time>2015-12-19T00:28:26.5281349+02:00</Time>
+    </Item>
+    <Item>
+      <Source>5.png</Source>
+      <Name>5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\5.xnb</Output>
+      <Time>2015-12-19T00:28:26.5331411+02:00</Time>
+    </Item>
+    <Item>
+      <Source>6.png</Source>
+      <Name>6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\6.xnb</Output>
+      <Time>2015-12-19T00:28:26.5371461+02:00</Time>
+    </Item>
+    <Item>
+      <Source>CutSceneRoom.jpg</Source>
+      <Name>CutSceneRoom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\CutSceneRoom.xnb</Output>
+      <Time>2015-12-19T00:28:39.547785+02:00</Time>
+    </Item>
+    <Item>
+      <Source>DialogBox.png</Source>
+      <Name>DialogBox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\DialogBox.xnb</Output>
+      <Time>2015-12-21T17:11:42.8174848+02:00</Time>
+    </Item>
+    <Item>
+      <Source>starec.png</Source>
+      <Name>starec</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\starec.xnb</Output>
+      <Time>2015-12-19T00:28:49.2777152+02:00</Time>
+    </Item>
+    <Item>
+      <Source>map.png</Source>
+      <Name>map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\map.xnb</Output>
+      <Time>2015-12-21T17:34:00.5776728+02:00</Time>
+    </Item>
+    <Item>
+      <Source>wizardSprite.png</Source>
+      <Name>wizardSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\wizardSprite.xnb</Output>
+      <Time>2015-12-21T18:10:45.5626672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>wizardRight.png</Source>
+      <Name>wizardRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\wizardRight.xnb</Output>
+      <Time>2015-12-22T05:14:44.8037983+02:00</Time>
+    </Item>
+    <Item>
+      <Source>wizardLeft.png</Source>
+      <Name>wizardLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\wizardLeft.xnb</Output>
+      <Time>2015-12-22T03:44:12.7306148+02:00</Time>
+    </Item>
+    <Item>
+      <Source>11111.png</Source>
+      <Name>11111</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\11111.xnb</Output>
+      <Time>2015-12-22T04:18:06.5894174+02:00</Time>
+    </Item>
+    <Item>
+      <Source>jediRight.png</Source>
+      <Name>jediRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\jediRight.xnb</Output>
+      <Time>2015-12-22T04:39:37.86309+02:00</Time>
+    </Item>
+    <Item>
+      <Source>jediLeft.png</Source>
+      <Name>jediLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\jediLeft.xnb</Output>
+      <Time>2015-12-22T04:37:41.6659154+02:00</Time>
+    </Item>
+    <Item>
+      <Source>imageedit_9_7961950935.PNG</Source>
+      <Name>imageedit_9_7961950935</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\imageedit_9_7961950935.xnb</Output>
+      <Time>2015-12-22T04:42:38.1868329+02:00</Time>
+    </Item>
+    <Item>
+      <Source>jedi3.png</Source>
+      <Name>jedi3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\jedi3.xnb</Output>
+      <Time>2015-12-22T04:59:11.6769492+02:00</Time>
+    </Item>
+    <Item>
+      <Source>jedi4.png</Source>
+      <Name>jedi4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\jedi4.xnb</Output>
+      <Time>2015-12-22T04:59:11.6539331+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skelet3.png</Source>
+      <Name>skelet3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\skelet3.xnb</Output>
+      <Time>2015-12-22T05:13:01.5127292+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skelet4.png</Source>
+      <Name>skelet4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\skelet4.xnb</Output>
+      <Time>2015-12-22T05:03:29.6558368+02:00</Time>
+    </Item>
+    <Item>
+      <Source>skelet0.png</Source>
+      <Name>skelet0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\skelet0.xnb</Output>
+      <Time>2015-12-22T05:46:43.9801659+02:00</Time>
+    </Item>
+    <Item>
+      <Source>login.wav</Source>
+      <Name>login</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\login.xnb</Output>
+      <Time>2015-12-18T00:47:29.8163168+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ImperialMarch.mp3</Source>
+      <Name>ImperialMarch</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.xnb</Output>
+      <Extra>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.wma</Extra>
+      <Time>2015-12-18T01:04:07.0384847+02:00</Time>
+    </Item>
+    <Item>
+      <Source>REMIX.mp3</Source>
+      <Name>REMIX</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\REMIX.xnb</Output>
+      <Extra>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\REMIX.wma</Extra>
+      <Time>2015-12-18T01:16:07.9562193+02:00</Time>
+    </Item>
+    <Item>
+      <Source>imperial march 8bit.mp3</Source>
+      <Name>imperial march 8bit</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\imperial march 8bit.xnb</Output>
+      <Extra>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\imperial march 8bit.wma</Extra>
+      <Time>2015-12-22T05:48:44.4133242+02:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2015-12-19T00:19:13.906329+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-12-08T23:12:46.4368739+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

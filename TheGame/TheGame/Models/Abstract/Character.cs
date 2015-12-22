@@ -16,6 +16,16 @@ namespace TheGame
         private int moveSpeed;
         private int lives;
 
+        private Texture2D moveLeft;
+        private Texture2D moveRight;
+
+        private float elapsed;
+        private float delay = 200;
+        private int frames = 0;
+
+        private Texture2D currentAnim;
+        private Rectangle sourceRectangle;
+
         private bool isAttacking;
 
 
@@ -37,18 +47,61 @@ namespace TheGame
         public int Lives { get; set; }
         public bool IsAttacking { get; set; }
 
+        public int Frames
+        {
+            get { return this.frames; }
+            set { this.frames = value; }
+        }
+
+        public float Delay
+        {
+            get { return this.delay; }
+            set { this.delay = value; }
+        }
+
+        public float Elapsed
+        {
+            get { return this.elapsed; }
+            set { this.elapsed = value; }
+        }
+        
+
+        public Texture2D MoveLeft
+        {
+            get { return this.moveLeft; }
+            set { this.moveLeft = value; }
+        }
+
+        public Texture2D MoveRight
+        {
+            get { return this.moveRight; }
+            set { this.moveRight = value; }
+        }
+
+        public Texture2D CurrentAnim
+        {
+            get { return this.currentAnim; }
+            set { this.currentAnim = value; }
+        }
+
+        public Rectangle SourceRectangle
+        {
+            get { return this.sourceRectangle; }
+            set { this.sourceRectangle = value; }
+        }
+
 
 
 
         public abstract void Attack(CollisionHandler collisionHandler);
 
-        public abstract void Move(KeyboardState presentKey, KeyboardState pastKey);
-        public abstract void Animate();
+        public abstract void Move(KeyboardState presentKey, KeyboardState pastKey, GameTime gameTime);
+        public abstract void Animate(GameTime gameTime);
         public abstract void Draw(SpriteBatch spriteBatch);
 
 
 
-        public override void Update(KeyboardState presentKey, KeyboardState pastKey)
+        public override void Update(KeyboardState presentKey, KeyboardState pastKey, GameTime gameTime)
         {
             CheckHealth();
         }

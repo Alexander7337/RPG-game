@@ -15,9 +15,6 @@ class InputManager
     {
         Left, Right
     }
-    /// <summary>
-    ///Call this in every update method of your game to keep things up to date.
-    /// </summary>
     public static void Update()
     {
         prevoiusKeyboardState = currentKeyboardState;

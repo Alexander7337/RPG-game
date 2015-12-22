@@ -19,8 +19,6 @@ namespace TheGame
         public ChoseClassButton(Texture2D newTexture, GraphicsDevice graphics)
         {
             texture = newTexture;
-            //ScreenW = 800, ScreenH = 600
-            //ImgW = 100, ImgH = 20
             size = new Vector2(graphics.Viewport.Width / 4, graphics.Viewport.Height / 30);
         }
 

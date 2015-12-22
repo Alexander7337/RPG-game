@@ -75,7 +75,6 @@ E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\starec.xnb
 E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\font.xnb
 E:\NaiPoslednaVersiq\TheGame\TheGame\TheGame\bin\x86\Debug\Content\map.xnb
 C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb
-C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\character.xnb
 C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb
 C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb
 C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb
@@ -110,39 +109,64 @@ C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\obj\x86\Debug\
 C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\obj\x86\Debug\TheGame.exe
 C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\obj\x86\Debug\TheGame.pdb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\character.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\CodeWizard.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\otherbackground.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\play_button.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\minimal-class.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\codespace.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\codespaceCode.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\Begin.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\0.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\1.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\2.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\3.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\4.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\5.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\6.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\CutSceneRoom.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\DialogBox.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\starec.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\map.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\wizardSprite.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\login.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\REMIX.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\font.xnb
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.wma
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\Content\REMIX.wma
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\TheGame.exe
-E:\LatestVersion\TheGame\TheGame\bin\x86\Debug\TheGame.pdb
-E:\LatestVersion\TheGame\TheGame\obj\x86\Debug\TheGame.csprojResolveAssemblyReference.cache
-E:\LatestVersion\TheGame\TheGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-E:\LatestVersion\TheGame\TheGame\obj\x86\Debug\TheGame.exe
-E:\LatestVersion\TheGame\TheGame\obj\x86\Debug\TheGame.pdb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\wizardRight.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\wizardLeft.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\11111.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\jediRight.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\jediLeft.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\imageedit_9_7961950935.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\jedi3.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\jedi4.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\skelet3.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\skelet4.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\skelet0.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\imperial march 8bit.xnb
+C:\Users\Y50\Desktop\TheGameFOLDER\Latest Version\TheGame\TheGame\bin\x86\Debug\Content\imperial march 8bit.wma
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\Button.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\first half.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\Characterselect.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\CodeJedi.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\CodeWizard.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\otherbackground.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\play_button.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\minimal-class.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\codespace.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\codespaceCode.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\Begin.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\0.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\1.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\2.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\3.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\4.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\5.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\6.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\CutSceneRoom.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\DialogBox.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\starec.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\map.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\wizardSprite.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\wizardRight.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\wizardLeft.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\11111.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\jediRight.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\jediLeft.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\imageedit_9_7961950935.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\jedi3.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\jedi4.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\skelet3.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\skelet4.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\skelet0.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\login.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\REMIX.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\imperial march 8bit.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\font.xnb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\ImperialMarch.wma
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\REMIX.wma
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\Content\imperial march 8bit.wma
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\TheGame.exe
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\bin\x86\Debug\TheGame.pdb
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\obj\x86\Debug\TheGame.exe
+C:\Documents and Settings\Krasi1\Desktop\Final\TheGame\TheGame\obj\x86\Debug\TheGame.pdb

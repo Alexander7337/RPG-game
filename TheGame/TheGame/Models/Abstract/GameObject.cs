@@ -80,9 +80,9 @@ namespace TheGame
 
 
 
-        public abstract void Update(KeyboardState presentKey, KeyboardState pastKey);
+        public abstract void Update(KeyboardState presentKey, KeyboardState pastKey, GameTime gameTime);
 
-        public abstract void Load(ContentManager Content);
+        public abstract void Load(ContentManager content);
         
 
         public void Draw(SpriteBatch spriteBatch)

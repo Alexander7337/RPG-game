@@ -9,7 +9,7 @@ namespace TheGame
     public class Gravity
     {
         private const float GRAVITYVALUE = 1;
-        private float gMultiplier;
+        
 
 
         public Gravity()
@@ -29,7 +29,7 @@ namespace TheGame
 
             if (gameObject.Position.Y < 400)
             {
-                if (gameObject.IsCollided == false)
+                if (!gameObject.IsCollided)
                 {
                     GMultiplier += 0.5f;
 
@@ -43,10 +43,7 @@ namespace TheGame
                 else
                 {
                     gameObject.Position = Vector2.Add(gameObject.Position, new Vector2(0, 2));
-
-                    //gameObject.Position = (gameObject.Position.Y >= 400)
-                    //    ? new Vector2(lastXPosition, 400)
-                    //    : gameObject.Position;
+                    GMultiplier = 0;
                 }
             }
             else

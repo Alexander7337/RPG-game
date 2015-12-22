@@ -14,8 +14,6 @@ namespace TheGame
         private const int WIZARDSPEED = 4;
         private const int JUMPHEIGHT = -3;
 
-        private Vector2 velocity;   // not needed ???
-
         private int jumpCounter;
 
 
@@ -24,7 +22,7 @@ namespace TheGame
         public CodeJedi(string name, Vector2 position, ContentManager Content, CollisionHandler collisionHandler)
             : base(
                 Content.Load<Texture2D>("CodeJedi"), position, name,
-                10, 10, Heroclass.CodeJedi,collisionHandler)
+                10, 10, Heroclass.CodeJedi, collisionHandler)
         {
             this.Health = 100;
             this.Lives = 10;
@@ -37,25 +35,35 @@ namespace TheGame
 
 
         public int JumpCounter { get; set; }
-        
-
-        
 
 
-        public override void Animate()
+        public override void Animate(GameTime gameTime)
         {
-            //throw new NotImplementedException();
+            this.Elapsed += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+
+            SourceRectangle = new Rectangle(79 * this.Frames, 0, 79, 64);
         }
 
-        public override void Move(KeyboardState presentKey, KeyboardState pastKey)
+        public override void Move(KeyboardState presentKey, KeyboardState pastKey, GameTime gameTime)
         {
             if (Keyboard.GetState().IsKeyDown(Keys.Right))
             {
                 this.Position = Vector2.Add(Position, new Vector2(this.MoveSpeed, 0));
+                this.CurrentAnim = MoveRight;
+                this.Frames = 1;
+                Animate(gameTime);
             }
-            if (Keyboard.GetState().IsKeyDown(Keys.Left))
+            else if (Keyboard.GetState().IsKeyDown(Keys.Left))
             {
                 this.Position = Vector2.Add(Position, new Vector2(-this.MoveSpeed, 0));
+                this.CurrentAnim = MoveLeft;
+                this.Frames = 1;
+                Animate(gameTime);
+            }
+            else
+            {
+
+                this.SourceRectangle = new Rectangle(0, 0, 79, 64);
             }
             if (presentKey.IsKeyDown(Keys.Up) && pastKey.IsKeyUp(Keys.Up))
             {
@@ -93,30 +101,28 @@ namespace TheGame
         }
 
 
-        public override void Update(KeyboardState presentKey, KeyboardState pastKey)
+        public override void Update(KeyboardState presentKey, KeyboardState pastKey, GameTime gameTime)
         {
-            Move(presentKey, pastKey);
+            Move(presentKey, pastKey, gameTime);
         }
 
         public override void Load(ContentManager Content)
         {
-            this.Texture = Content.Load<Texture2D>("CodeJedi");
-            
+            this.MoveRight = Content.Load<Texture2D>("jedi4");
+            this.MoveLeft = Content.Load<Texture2D>("jedi3");
+
+            this.CurrentAnim = MoveRight;
+
         }
 
         public override void Attack(CollisionHandler collisionHandler)
         {
             foreach (Character character in collisionHandler.GameCharacters)
             {
-            //    if (this.Rectangle.Intersects(character.Rectangle))
-            //    {
-            //        character.Health -= (int)this.Damage;
-            //        this.IsAttacking = false;
-            //    }
 
                 if (this.IsCollided && character.IsCollided)
                 {
-                    character.Health -= (int) this.Damage;
+                    character.Health -= (int)this.Damage;
                     this.IsAttacking = false;
 
                 }
@@ -128,8 +134,9 @@ namespace TheGame
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            this.Rectangle = new Rectangle((int) Position.X, (int) Position.Y, 50, 100);
-           spriteBatch.Draw(this.Texture, this.Rectangle, Color.White);
+            this.Rectangle = new Rectangle((int)Position.X, (int)Position.Y, 65, 100);
+
+            spriteBatch.Draw(this.CurrentAnim, this.Rectangle, this.SourceRectangle, Color.White);
         }
     }
 }

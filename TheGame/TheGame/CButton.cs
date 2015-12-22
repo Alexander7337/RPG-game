@@ -19,9 +19,7 @@ namespace TheGame
         public CButton(Texture2D newTexture, GraphicsDevice graphics)
         {
             texture = newTexture;
-            //ScreenW = 800, ScreenH = 600
-            //ImgW = 100, ImgH = 20
-            size = new Vector2(graphics.Viewport.Width/4, 50);
+            size = new Vector2(graphics.Viewport.Width / 4, 50);
         }
 
         bool down;
@@ -29,8 +27,8 @@ namespace TheGame
 
         public void Update(MouseState mouse)
         {
-            rectangle = new Rectangle((int) position.X, (int) position.Y,
-                (int) size.X, (int) size.Y);
+            rectangle = new Rectangle((int)position.X, (int)position.Y,
+                (int)size.X, (int)size.Y);
             Rectangle mouseRectangle = new Rectangle(mouse.X, mouse.Y, 1, 1);
             if (mouseRectangle.Intersects(rectangle))
             {

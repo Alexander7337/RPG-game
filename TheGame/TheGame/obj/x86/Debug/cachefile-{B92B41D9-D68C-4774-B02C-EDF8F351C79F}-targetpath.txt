@@ -1,5 +1,4 @@
 Content\Button.xnb
-Content\character.xnb
 Content\first half.xnb
 Content\Characterselect.xnb
 Content\CodeJedi.xnb
@@ -22,9 +21,22 @@ Content\DialogBox.xnb
 Content\starec.xnb
 Content\map.xnb
 Content\wizardSprite.xnb
+Content\wizardRight.xnb
+Content\wizardLeft.xnb
+Content\11111.xnb
+Content\jediRight.xnb
+Content\jediLeft.xnb
+Content\imageedit_9_7961950935.xnb
+Content\jedi3.xnb
+Content\jedi4.xnb
+Content\skelet3.xnb
+Content\skelet4.xnb
+Content\skelet0.xnb
 Content\login.xnb
 Content\ImperialMarch.xnb
 Content\ImperialMarch.wma
 Content\REMIX.xnb
 Content\REMIX.wma
+Content\imperial march 8bit.xnb
+Content\imperial march 8bit.wma
 Content\font.xnb

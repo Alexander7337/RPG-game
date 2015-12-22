@@ -17,102 +17,131 @@ namespace TheGame
 
         public Skeleton(string name, Vector2 position, ContentManager Content, CollisionHandler collisionHandler)
             : base(
-                Content.Load<Texture2D>("character"), position, name,
-                10, 10,collisionHandler)
+                Content.Load<Texture2D>("skelet0"), position, name,
+                10, 10, collisionHandler)
         {
             this.Health = 100;
             this.Lives = 10;
             this.CollisionGroup = CollisionGroup.Skeleton;
-            this.Rectangle = new Rectangle((int)Position.X, (int)Position.Y, 50, 100);
+            this.Rectangle = new Rectangle((int)Position.X, (int)Position.Y, 50, 75);
             this.Name = name;
-            this.CollisionHandler = collisionHandler;
             this.MoveSpeed = 1;
             this.Range = SkeletonRange;
 
+
         }
 
-
-        //public static Texture2D SkeletonTexture { get; set; }
-        //public static Rectangle SkeletonRectangle { get; set; }
-
-
-         public override void Update(KeyboardState presentKey, KeyboardState pastKey)
+        public override void Update(KeyboardState presentKey, KeyboardState pastKey, GameTime gameTime)
         {
-             if (this.Health <= 0)
-             {             
-                 this.Exists = false;
+            if (this.Health <= 0)
+            {
+                this.Exists = false;
 
-                 this.Rectangle = new Rectangle(0,0,0,0);
-             }
+                this.Rectangle = new Rectangle(0, 0, 0, 0);
+            }
 
-             Ai();
+            Move(presentKey, pastKey, gameTime);
         }
 
 
-        public override void Move(KeyboardState presentKey, KeyboardState pastkey)
+        public override void Move(KeyboardState presentKey, KeyboardState pastkey, GameTime gameTime)
         {
-            Ai();
+            Ai(gameTime);
         }
 
 
 
-        public void Ai()
+        public void Ai(GameTime gameTime)
         {
             if (Math.Abs(this.Position.X - Hero.Position.X) < this.Range)
             {
                 if (Hero.Position.X > this.Position.X)
                 {
-                    MoveRight();
+                    SkeletonMoveRight();
+                    this.CurrentAnim = MoveRight;
+                    Animate(gameTime);
 
-                    
+
 
                 }
-                if (Hero.Position.X < this.Position.X)
+                else if (Hero.Position.X < this.Position.X)
                 {
-                    MoveLeft();
-                    
+                    SkeletonMoveLeft();
+                    this.CurrentAnim = MoveLeft;
+                    Animate(gameTime);
+                }
+                else
+                {
+                    this.SourceRectangle = new Rectangle(0, 0, 50, 75);
                 }
 
                 if (Math.Abs(this.Position.X - Hero.Position.X) < 5)
                 {
                     Attack(this.CollisionHandler);
                 }
-            } 
+            }
 
-           
+            else
+            {
+                this.SourceRectangle = new Rectangle(0, 0, 50, 75);
+            }
+
+
+            this.Rectangle = new Rectangle((int)Position.X, (int)Position.Y, 50, 75);
 
 
         }
 
-        private void MoveLeft()
+        private void SkeletonMoveLeft()
         {
             this.Position = Vector2.Add(this.Position, (new Vector2(-(this.MoveSpeed), 0)));
         }
 
-        private void MoveRight()
+        private void SkeletonMoveRight()
         {
             this.Position = Vector2.Add(this.Position, (new Vector2(this.MoveSpeed, 0)));
         }
 
-        public override void Animate()
+        public override void Animate(GameTime gameTime)
         {
-            //throw new NotImplementedException();
+            this.Elapsed += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+
+            if (this.Elapsed >= this.Delay)
+            {
+                if (this.Frames >= 9)
+                {
+                    this.Frames = 0;
+                }
+                else
+                {
+                    this.Frames++;
+                }
+
+                this.Elapsed = 0;
+
+            }
+
+            SourceRectangle = new Rectangle(50 * this.Frames, 0, 50, 75);
         }
 
         public override void Load(ContentManager Content)
         {
-            this.Texture = Content.Load<Texture2D>("character");
+            this.MoveRight = Content.Load<Texture2D>("skelet3");
+            this.MoveLeft = Content.Load<Texture2D>("skelet4");
+
+            this.CurrentAnim = this.MoveRight;
         }
 
         public override void Attack(CollisionHandler collisionHandler)
         {
-           // throw new NotImplementedException();
+            // throw new NotImplementedException();
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            this.Rectangle = new Rectangle((int)Position.X, (int)Position.Y, 50, 100);
-            spriteBatch.Draw(this.Texture, this.Rectangle, Color.White);
+            this.Rectangle = new Rectangle((int)Position.X, (int)Position.Y, 50, 75);
+
+            spriteBatch.Draw(this.CurrentAnim, this.Rectangle, this.SourceRectangle, Color.White);
         }
     }
 }
